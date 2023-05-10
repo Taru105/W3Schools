@@ -1,0 +1,2 @@
+display:flex, this property makes the element to be stacked in the same row 
+until and unless there's some specification 

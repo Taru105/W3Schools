@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+body{
+    text-align: center;
+}
+
+button:hover{
+    /* see here a:hover is not used button:hover is used in order to show some behaviour 
+    when hovering over any button */
+    font-size:larger;
+    font-style: italic;
+}
+/* header section */
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;    
+    padding: 0;
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 7px 12px;
+}
+.nav-list li a{
+    color: white;
+}
+.right-nav{
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+#header{
+    padding: 2%;
+    font-weight: bold;    
+    background-image: linear-gradient(rgb(231, 238, 252),rgb(150, 150, 150),rgb(75, 75, 74),rgb(12, 12, 12)) ;    
+}
+#header a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+#courses{
+    background-color: rgb(48, 47, 47);
+    padding: 0.5%;
+    font-weight: bold;
+}
+#courses a{
+    color: white;
+}
+#courses a:hover{
+    text-decoration:none;
+    color: yellow;
+    font-size: large;
+}
+
+
+.first-section{
+    height: 100vh;
+}
+
+.main-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: auto;
+    max-width: 50%;
+    height: 80%;
+}
+.first-half{
+    width: 65%;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+.second-half{
+    width: 30%;
+}
+.second-half img{
+    width: 100%;
+}
+.theme-image{
+    /* border-color: white; */
+    border: 4px solid white;
+    border-radius: 100%;
+}
+.background{
+    /* here background not background image */
+    background: rgba(0,0,0,0.7)url(images/iEducate_image1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/* Main body */
+#main{    
+    padding: 0% 1%;
+}
+#main h2{
+    color: rgb(15, 227, 15);
+    text-shadow: rgb(2, 85, 2);
+
+}
+#main .span-color{
+    color: red;
+}
+.JS_values{
+    background-color: rgb(226, 243, 201);
+    padding: 2%;    
+    text-align: center;
+}
+.JS_var{
+    background-color: white;
+    padding: 2%;
+    text-align: center;
+}
+.note{
+    background-color: rgb(226, 243, 201) ;
+    padding: 2%;
+    text-align: center;
+}
+
+/* Prev next navigation section */
+#nav{
+    padding: 3%;   
+}
+.Prev{
+    float: left;
+    padding: 8px 19px;
+}
+.Next{
+   float: right;
+   padding: 8px 19px;
+}
+/* Testimonial section */
+#testimonials{
+    text-align: center;
+    color: white;
+    background-color: rgb(242, 137, 102);    
+}
+.testimonial-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+}
+.carousel-item{
+    padding: 6% 13%;
+}
+
+/* Press section */
+#press{
+    padding: 3% 7%;
+    background-image: url(images/light\ background.jpg);
+    text-align: center;
+}
+#reference{
+    padding: 6% 13%;
+    background-color: #f9d1aa;
+    text-align: center;
+}
+#reference .btn{
+    margin: 7px;
+}
+
+/* Video section */
+#video{
+    background-image: url(images/bg\ image\ 2.jpg);  
+    background-repeat: repeat ;
+    font-size: large;
+    font-style: normal;
+    font-weight:bolder;
+    font-family: cursive;
+    margin: 0;
+}
+
+/* Footer section */
+#footer{
+    padding: 3.5%;
+    text-align: center;
+    color: white;
+    background-color: rgb(139, 139, 139);
+}
+.thumbs-up{
+    color: black;
+}
+.last-btn{
+    padding: 2%;
+    margin: 2%;
+    display: block;
+
+}
+hr{
+    border-style: none;
+    border-top-style:dotted;            
+    border-color: rgb(209, 11, 87);            
+    width: 40%;    
+    border-width: 5px;  
+}
+.pressed{
+    box-shadow: 0 3px 4px 0 gray;
+    opacity: 0.5;
+    background-color: aquamarine;     
+}
